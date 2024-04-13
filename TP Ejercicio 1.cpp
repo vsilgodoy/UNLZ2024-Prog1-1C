@@ -1,23 +1,26 @@
+//Elabore un algoritmo en C++ para calcular el área y el perímetro de un rectángulo
+solicitando los datos necesarios al usuario.
+
 #include <iostream>
 
 using namespace std;
 
 int main() {
-    // Declaraci�n de variables
+    // Declaración de variables
     float base, altura, area, perimetro;
 
-    // Solicitar al usuario que ingrese la base del rect�ngulo
+    // Solicitar al usuario que ingrese la base del rectángulo
     cout << "Ingrese la base del rectangulo: ";
     cin >> base;
 
-    // Solicitar al usuario que ingrese la altura del rect�ngulo
+    // Solicitar al usuario que ingrese la altura del rectángulo
     cout << "Ingrese la altura del rectangulo: ";
     cin >> altura;
 
-    // Calcular el �rea del rect�ngulo
+    // Calcular el área del rectángulo
     area = base * altura;
 
-    // Calcular el per�metro del rect�ngulo
+    // Calcular el perímetro del rectángulo
     perimetro = 2 * (base + altura);
 
     // Mostrar los resultados
