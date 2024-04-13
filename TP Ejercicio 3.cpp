@@ -1,9 +1,13 @@
+//Elabore un algoritmo en C++ para convertir pesos argentinos a dólares
+estadounidenses. La cantidad de pesos y la cotización deberán ser solicitadas al
+usuario.
+    
 #include <iostream>
 
 using namespace std;
 
 int main() {
-    // Declaraci�n de variables
+    // Declaración de variables
     long double pesos_argentinos, dolares_estadounidenses, cotizacion;
 
     // Solicitar al usuario que ingrese los pesos argentinos
