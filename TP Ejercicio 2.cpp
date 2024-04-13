@@ -1,9 +1,11 @@
+//Elabore un algoritmo en C++ para convertir centímetros a metros.
+
 #include <iostream>
 
 using namespace std;
 
 int main() {
-    // Declaraci�n de variables
+    // Declaración de variables
     double centimetros, metros;
 
    // Solicitar al usuario que ingrese la longitud en centimetros
